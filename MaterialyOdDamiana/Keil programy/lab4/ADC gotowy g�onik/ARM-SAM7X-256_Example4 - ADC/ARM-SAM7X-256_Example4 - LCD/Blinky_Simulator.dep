@@ -1,0 +1,17 @@
+Dependencies for Project 'Blinky', Target 'Simulator': (DO NOT MODIFY !)
+F (.\SAM7.s)(0x5162B4EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Atmel\SAM7X-o .\flash\sam7.o --depend .\flash\sam7.d)
+F (.\Retarget.c)(0x5162B4EA)(-c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Atmel\SAM7X-o .\flash\retarget.o --depend .\flash\retarget.d)
+I (C:\Keil\ARM\ARMCC\include\rt_misc.h)(0x51C80BA4)
+F (.\delay.c)(0x5260DBBA)(-c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Atmel\SAM7X-o .\flash\delay.o --depend .\flash\delay.d)
+I (D:\Studia\Archiwa semestralne\semestr 5\Systemy wbudowane\Keil programy\lab4\ADC gotowy g³oœnik\ARM-SAM7X-256_Example4 - ADC\ARM-SAM7X-256_Example4 - LCD\delay.h)(0x5260D99C)
+F (.\lcd.c)(0x5260E02A)(-c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Atmel\SAM7X-o .\flash\lcd.o --depend .\flash\lcd.d)
+I (C:\Keil\ARM\Inc\Atmel\SAM7X\at91sam7x256.h)(0x51C80D8E)
+I (D:\Studia\Archiwa semestralne\semestr 5\Systemy wbudowane\Keil programy\lab4\ADC gotowy g³oœnik\ARM-SAM7X-256_Example4 - ADC\ARM-SAM7X-256_Example4 - LCD\lcd.h)(0x4F01A54A)
+F (.\Blinky.c)(0x528CE4DC)(-c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Atmel\SAM7X-o .\flash\blinky.o --depend .\flash\blinky.d)
+I (C:\Keil\ARM\Inc\Atmel\SAM7X\AT91SAM7X256.H)(0x51C80D8E)
+I (D:\Studia\Archiwa semestralne\semestr 5\Systemy wbudowane\Keil programy\lab4\ADC gotowy g³oœnik\ARM-SAM7X-256_Example4 - ADC\ARM-SAM7X-256_Example4 - LCD\lcd.h)(0x4F01A54A)
+I (D:\Studia\Archiwa semestralne\semestr 5\Systemy wbudowane\Keil programy\lab4\ADC gotowy g³oœnik\ARM-SAM7X-256_Example4 - ADC\ARM-SAM7X-256_Example4 - LCD\adc.c)(0x5162B4EA)
+I (D:\Studia\Archiwa semestralne\semestr 5\Systemy wbudowane\Keil programy\lab4\ADC gotowy g³oœnik\ARM-SAM7X-256_Example4 - ADC\ARM-SAM7X-256_Example4 - LCD\adc.h)(0x5162B4EA)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C80BA4)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C80BA4)
+F (.\Abstract.txt)(0x5162B4EA)()

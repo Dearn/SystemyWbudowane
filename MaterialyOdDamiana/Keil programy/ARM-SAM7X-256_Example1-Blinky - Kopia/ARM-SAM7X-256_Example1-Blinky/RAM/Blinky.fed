@@ -1,0 +1,8 @@
+;#<FEEDBACK># ARM Linker, 5.03 [Build 76]: Last Updated: Wed Oct 16 15:19:47 2013
+;VERSION 0.2
+;FILE blinky.o
+delay <= USED 0
+delay_1ms <= USED 0
+delay_us <= USED 0
+;FILE retarget.o
+_sys_exit <= USED 0
