@@ -1,0 +1,12 @@
+--cpu ARM7TDMI
+".\flash\sam7.o"
+".\flash\retarget.o"
+".\flash\delay.o"
+".\flash\lcd.o"
+".\flash\main_code.o"
+".\flash\ds18b20.o"
+".\flash\one_wire.o"
+--library_type=microlib --strict --scatter ".\Flash\PROJECT_ARM.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Flash\PROJECT_ARM.map" -o .\Flash\PROJECT_ARM.axf

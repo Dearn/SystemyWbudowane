@@ -1,0 +1,2 @@
+kropka = 1 sekunda
+kreska = 3 sekundy

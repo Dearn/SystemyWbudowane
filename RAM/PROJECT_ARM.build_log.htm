@@ -1,0 +1,86 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\student\Documents\Systemy wbudowane\Systemy wbudowane\Keil programy\lab6\ARM-SAM7X-256_Example8 - 1-wire DS18B20 MORS\PROJECT_ARM.uvproj
+Project File Date:  10/13/2014
+
+<h2>Output:</h2>
+Rebuild target 'SAM7X RAM - ULINK'
+Clean started - Project: 'PROJECT_ARM'
+   deleting intermediate output files for target 'SAM7X RAM - ULINK'
+assembling SAM7.s...
+compiling Retarget.c...
+compiling delay.c...
+compiling lcd.c...
+lcd.c(154): warning:  #61-D: integer operation result is out of range
+        (AT91C_SPI_DLYBCS & (0 << 24)) |    // Delay between chip selects (take default: 6 MCK periods)
+lcd.c(165): warning:  #61-D: integer operation result is out of range
+        (AT91C_SPI_DLYBCT & (0x01 << 24))     |  // Delay between Consecutive Transfers (32 MCK periods)
+lcd.c: 2 warnings, 0 errors
+compiling main_code.c...
+main_code.c(990): warning:  #111-D: statement is unreachable
+        LCDClearScreen();
+main_code.c(993): warning:  #1-D: last line of file ends without a newline
+    }
+main_code.c(842): warning:  #177-D: variable "ye" was declared but never referenced
+        static int ye;                  
+main_code.c: 3 warnings, 0 errors
+compiling ds18b20.c...
+compiling one_wire.c...
+linking...
+Program Size: Code=8380 RO-data=3148 RW-data=64 ZI-data=1160  
+".\RAM\PROJECT_ARM.axf" - 0 Error(s), 5 Warning(s).
+
+*** Performing Cross-Module-Optimization:
+compiling Retarget.c...
+compiling delay.c...
+compiling lcd.c...
+lcd.c(154): warning:  #61-D: integer operation result is out of range
+        (AT91C_SPI_DLYBCS & (0 << 24)) |    // Delay between chip selects (take default: 6 MCK periods)
+lcd.c(165): warning:  #61-D: integer operation result is out of range
+        (AT91C_SPI_DLYBCT & (0x01 << 24))     |  // Delay between Consecutive Transfers (32 MCK periods)
+lcd.c: 2 warnings, 0 errors
+compiling main_code.c...
+main_code.c(990): warning:  #111-D: statement is unreachable
+        LCDClearScreen();
+main_code.c(993): warning:  #1-D: last line of file ends without a newline
+    }
+main_code.c(842): warning:  #177-D: variable "ye" was declared but never referenced
+        static int ye;                  
+main_code.c: 3 warnings, 0 errors
+compiling ds18b20.c...
+compiling one_wire.c...
+linking...
+Program Size: Code=3984 RO-data=32 RW-data=64 ZI-data=1160  
+compiling Retarget.c...
+compiling delay.c...
+compiling lcd.c...
+lcd.c(154): warning:  #61-D: integer operation result is out of range
+        (AT91C_SPI_DLYBCS & (0 << 24)) |    // Delay between chip selects (take default: 6 MCK periods)
+lcd.c(165): warning:  #61-D: integer operation result is out of range
+        (AT91C_SPI_DLYBCT & (0x01 << 24))     |  // Delay between Consecutive Transfers (32 MCK periods)
+lcd.c: 2 warnings, 0 errors
+compiling main_code.c...
+main_code.c(990): warning:  #111-D: statement is unreachable
+        LCDClearScreen();
+main_code.c(993): warning:  #1-D: last line of file ends without a newline
+    }
+main_code.c(842): warning:  #177-D: variable "ye" was declared but never referenced
+        static int ye;                  
+main_code.c: 3 warnings, 0 errors
+compiling ds18b20.c...
+compiling one_wire.c...
+linking...
+Program Size: Code=3984 RO-data=32 RW-data=64 ZI-data=1160  
+".\RAM\PROJECT_ARM.axf" - 0 Error(s), 5 Warning(s).
+*** Completed Cross-Module-Optimization after 3 iteration(s).
+Full Chip Erase Done.
+Load "C:\\Users\\student\\Documents\\Systemy wbudowane\\Systemy wbudowane\\Keil programy\\lab6\\ARM-SAM7X-256_Example8 - 1-wire DS18B20 MORS\\RAM\\PROJECT_ARM.axf" 
+No Algorithm found for: 00200000H - 00200FEFH
+Programming skipped!
+Error: Flash Download failed  -  ARM7TDMI
+</pre>
+</body>
+</html>
