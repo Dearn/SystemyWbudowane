@@ -1,9 +1,0 @@
-.\flash\ds18b20.o: ds18b20.c
-.\flash\ds18b20.o: common.h
-.\flash\ds18b20.o: C:\Keil\ARM\ARMCC\bin\..\include\inttypes.h
-.\flash\ds18b20.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
-.\flash\ds18b20.o: delay.h
-.\flash\ds18b20.o: C:\Keil\ARM\Inc\Atmel\SAM7X\AT91SAM7X256.H
-.\flash\ds18b20.o: include/lib_AT91SAM7X256.h
-.\flash\ds18b20.o: one_wire.h
-.\flash\ds18b20.o: ds18b20.h

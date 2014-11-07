@@ -1,40 +1,0 @@
-Dependencies for Project 'PROJECT_ARM', Target 'Simulator': (DO NOT MODIFY !)
-F (.\SAM7.s)(0x527A6D7E)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Atmel\SAM7X-o .\flash\sam7.o --depend .\flash\sam7.d)
-F (.\Retarget.c)(0x527A6D7E)(-c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Atmel\SAM7X-DSimulator -o .\flash\retarget.o --depend .\flash\retarget.d)
-I (C:\Keil\ARM\ARMCC\include\rt_misc.h)(0x51C7FD94)
-F (.\delay.c)(0x52826FBC)(-c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Atmel\SAM7X-DSimulator -o .\flash\delay.o --depend .\flash\delay.d)
-I (C:\Users\stud-sw-d\Desktop\ARM-SAM7X-256_Example8 - 1-wire DS18B20 lab 5 system przeciw po풹rowy\delay.h)(0x527A6D7E)
-F (.\lcd.c)(0x52838133)(-c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Atmel\SAM7X-DSimulator -o .\flash\lcd.o --depend .\flash\lcd.d)
-I (C:\Keil\ARM\Inc\Atmel\SAM7X\at91sam7x256.h)(0x51C7FF7E)
-I (C:\Users\stud-sw-d\Desktop\ARM-SAM7X-256_Example8 - 1-wire DS18B20 lab 5 system przeciw po풹rowy\lcd.h)(0x527A6D7E)
-F (.\main_code.c)(0x5284C689)(-c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Atmel\SAM7X-DSimulator -o .\flash\main_code.o --depend .\flash\main_code.d)
-I (C:\Users\stud-sw-d\Desktop\ARM-SAM7X-256_Example8 - 1-wire DS18B20 lab 5 system przeciw po풹rowy\common.h)(0x527A6D7E)
-I (C:\Keil\ARM\ARMCC\include\inttypes.h)(0x51C7FD94)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
-I (C:\Users\stud-sw-d\Desktop\ARM-SAM7X-256_Example8 - 1-wire DS18B20 lab 5 system przeciw po풹rowy\delay.h)(0x527A6D7E)
-I (C:\Keil\ARM\Inc\Atmel\SAM7X\AT91SAM7X256.H)(0x51C7FF7E)
-I (C:\Users\stud-sw-d\Desktop\ARM-SAM7X-256_Example8 - 1-wire DS18B20 lab 5 system przeciw po풹rowy\include\lib_AT91SAM7X256.h)(0x527A6D7E)
-I (C:\Keil\ARM\ARMCC\include\stdio.H)(0x51C7FD94)
-I (C:\Keil\ARM\ARMCC\include\math.H)(0x51C7FD94)
-I (C:\Users\stud-sw-d\Desktop\ARM-SAM7X-256_Example8 - 1-wire DS18B20 lab 5 system przeciw po풹rowy\lcd.h)(0x527A6D7E)
-I (C:\Users\stud-sw-d\Desktop\ARM-SAM7X-256_Example8 - 1-wire DS18B20 lab 5 system przeciw po풹rowy\one_wire.h)(0x527A6D7E)
-I (C:\Users\stud-sw-d\Desktop\ARM-SAM7X-256_Example8 - 1-wire DS18B20 lab 5 system przeciw po풹rowy\adc.h)(0x527A6D7E)
-I (C:\Users\stud-sw-d\Desktop\ARM-SAM7X-256_Example8 - 1-wire DS18B20 lab 5 system przeciw po풹rowy\adc.c)(0x52826ED5)
-F (.\ds18b20.c)(0x527A6D7E)(-c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Atmel\SAM7X-DSimulator -o .\flash\ds18b20.o --depend .\flash\ds18b20.d)
-I (C:\Users\stud-sw-d\Desktop\ARM-SAM7X-256_Example8 - 1-wire DS18B20 lab 5 system przeciw po풹rowy\common.h)(0x527A6D7E)
-I (C:\Keil\ARM\ARMCC\include\inttypes.h)(0x51C7FD94)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
-I (C:\Users\stud-sw-d\Desktop\ARM-SAM7X-256_Example8 - 1-wire DS18B20 lab 5 system przeciw po풹rowy\delay.h)(0x527A6D7E)
-I (C:\Keil\ARM\Inc\Atmel\SAM7X\AT91SAM7X256.H)(0x51C7FF7E)
-I (C:\Users\stud-sw-d\Desktop\ARM-SAM7X-256_Example8 - 1-wire DS18B20 lab 5 system przeciw po풹rowy\include\lib_AT91SAM7X256.h)(0x527A6D7E)
-I (C:\Users\stud-sw-d\Desktop\ARM-SAM7X-256_Example8 - 1-wire DS18B20 lab 5 system przeciw po풹rowy\one_wire.h)(0x527A6D7E)
-I (C:\Users\stud-sw-d\Desktop\ARM-SAM7X-256_Example8 - 1-wire DS18B20 lab 5 system przeciw po풹rowy\ds18b20.h)(0x527A6D7E)
-F (.\one_wire.c)(0x52838557)(-c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Atmel\SAM7X-DSimulator -o .\flash\one_wire.o --depend .\flash\one_wire.d)
-I (C:\Users\stud-sw-d\Desktop\ARM-SAM7X-256_Example8 - 1-wire DS18B20 lab 5 system przeciw po풹rowy\common.h)(0x527A6D7E)
-I (C:\Keil\ARM\ARMCC\include\inttypes.h)(0x51C7FD94)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
-I (C:\Users\stud-sw-d\Desktop\ARM-SAM7X-256_Example8 - 1-wire DS18B20 lab 5 system przeciw po풹rowy\delay.h)(0x527A6D7E)
-I (C:\Keil\ARM\Inc\Atmel\SAM7X\AT91SAM7X256.H)(0x51C7FF7E)
-I (C:\Users\stud-sw-d\Desktop\ARM-SAM7X-256_Example8 - 1-wire DS18B20 lab 5 system przeciw po풹rowy\include\lib_AT91SAM7X256.h)(0x527A6D7E)
-I (C:\Users\stud-sw-d\Desktop\ARM-SAM7X-256_Example8 - 1-wire DS18B20 lab 5 system przeciw po풹rowy\one_wire.h)(0x527A6D7E)
-F (.\Abstract.txt)(0x527A6D7E)()
